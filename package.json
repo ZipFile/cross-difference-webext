@@ -1,0 +1,43 @@
+{
+  "name": "cross-difference",
+  "version": "1.0.0",
+  "description": "Compute |I∗[[1, -1], [-1, 1]]| for the image on the page.",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "./build.sh",
+    "buildChrome": "CHROME=yes ./build.sh"
+  },
+  "exports": {
+    "./": "./src/"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "mocha": "^8.2.1",
+    "should": "^13.2.3",
+    "web-ext": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZipFile/cross-difference.git"
+  },
+  "keywords": [
+    "jpeg",
+    "webextension"
+  ],
+  "author": "ZipFile",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ZipFile/cross-difference/issues"
+  },
+  "webExt": {
+    "sourceDir": "dist"
+  },
+  "homepage": "https://github.com/ZipFile/cross-difference#readme"
+}

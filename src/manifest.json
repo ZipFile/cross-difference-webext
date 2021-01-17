@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Show Image Cross-Difference",
+    "description": "Compute |I∗[[1, -1], [-1, 1]]| for the image on the page.",
+    "version": "1.0.0",
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "minimum_chrome_version": "55",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "cross-difference@zipfiled.info",
+            "strict_min_version": "59.0"
+        }
+    }
+}
