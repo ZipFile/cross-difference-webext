@@ -1,6 +1,6 @@
 {
   "name": "cross-difference",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compute |I∗[[1, -1], [-1, 1]]| for the image on the page.",
   "type": "module",
   "directories": {

@@ -2,13 +2,14 @@
     "manifest_version": 2,
     "name": "Show Image Cross-Difference",
     "description": "Compute |I∗[[1, -1], [-1, 1]]| for the image on the page.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "background": {
         "page": "background.html"
     },
     "permissions": [
         "activeTab",
-        "contextMenus"
+        "contextMenus",
+        "<all_urls>"
     ],
     "minimum_chrome_version": "55",
     "browser_specific_settings": {
